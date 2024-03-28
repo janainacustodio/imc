@@ -21,5 +21,6 @@ function calculate() {
        text="Você está com soprepeso tipo III."
     }
 
-    document.getElementById("text-area").innerText=text;
+    document.getElementById("result").innerText=text;
+    document.getElementById("result").style.display = "block";
 }

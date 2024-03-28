@@ -9,22 +9,6 @@ h1{
     margin-block-start: 0em;
    
 }
-#text-area{
-    background-color: white;
-    width: 100%;
-    margin-top: 3.5em;
-    text-align: center;
-    font-size: 1.5em;
-}
-.resultado{
-    border-radius: 0.5em;
-    height: 3em;
-    width: 100%;
-    background-color: #39C2AB;
-    border: none;
-    color: rgb(244, 252, 252);
-    margin-top: 0.7em;
-}
 .input-area{
     padding: 1em;
     width: 100%;
@@ -62,6 +46,14 @@ button:hover{
     cursor: pointer;
 }
 footer{
-    margin-top: 1em;
+    margin-top: 5em;
     color: white;
+}
+#result{
+    background-color: #39C2AB;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: none;
 }
